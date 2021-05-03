@@ -2,7 +2,7 @@ const ana = ['ana']
 const everyone = ['al', 'alex', 'ali', 'ami', 'amy']
 //js trick to fill an array however many times with the number bellow and the name bellow
 const large = new Array(10000).fill('ana')
-const performance = 0
+
 //funtion to find a name 
 findAna = (array) => {
     let t0 = performance.now();
@@ -15,3 +15,5 @@ findAna = (array) => {
     console.log('finding Ana took' + (t1 - t0) + 'milliseconds');
 }
 findAna(large);
+
+// 0(n) --> Linea Time
