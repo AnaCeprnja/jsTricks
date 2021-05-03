@@ -16,18 +16,18 @@ findAna = (array) => {
 }
 findAna(large);
 
-// 0(n) --> Linea Time --> the big 0 depends on the number of inputs <-- most common 
+// 0(n) --> Linear Time --> the big 0 depends on the number of inputs <-- most common 
 // if you have the large array is would be 0(100000) if you have the everyone array it would be 0(5)\
 //n stands for size of input aka scalability 
 
 //graph would go up into the right like shown bellow
-//
-//
-//
-//
-//
-//
-//
+///////////////////
+////////////////
+////////////
+//////////
+////////
+//////
+////
 
 //Another example 
 
