@@ -16,4 +16,5 @@ findAna = (array) => {
 }
 findAna(large);
 
-// 0(n) --> Linea Time
+// 0(n) --> Linea Time the big 0 depends on the number of inputs
+// if you have the large array is would be 0(100000) if you have the everyone array it would be 0(5)
