@@ -8,3 +8,4 @@ function compressFirstBox(boxes) {
 
 //graph would look like this just straight 
 // // // /// //
+
