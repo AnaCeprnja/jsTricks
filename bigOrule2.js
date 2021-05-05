@@ -15,3 +15,21 @@ function printFirstItemThenFirstHalfThenSayHi100Times(items) {
 }
 //this function will print hello 100 times
 // the big O of this 
+
+// big O will be  O(1 +n/2 +100)  we only care about things on the chart so this turns into ----> O(n+1) ----> O(n)
+
+// BIG O RULE NUMBER TWO IS REMOVE CONSTANTS!
+
+function compressBoxesTwice(boxes) {
+    boxes.forEach(function (boxes) {
+        console.log(boxes);
+    });
+
+
+    boxes.forEach(function (boxes) {
+        console.log(boxes);
+    });
+}
+
+//this function will compress boxes twice
+//O(n) + O(n) ----> O(2n) and when we drop the constants we return to O(n)
