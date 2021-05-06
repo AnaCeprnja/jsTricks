@@ -11,3 +11,9 @@ function logAllPairs(array) {
 }
 
 logAllPairs(boxes)
+
+//this is a nested loop
+
+//what is the big o of this? When you see loops that are nested we multiply instead of add
+// O(n^2) --> is the  big O 
+// quadratic time
