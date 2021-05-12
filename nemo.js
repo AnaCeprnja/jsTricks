@@ -20,7 +20,7 @@ const findNemo2 = array => {
     })
 
 }
-findNemo(everyone);
+findNemo(everyone);;
 //another way 
 
 const findNemo3 = array => {
