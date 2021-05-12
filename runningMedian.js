@@ -12,3 +12,10 @@ For example, given the sequence [2, 1, 5, 7, 2, 0, 5], your algorithm should pri
 2
 2
 2 */
+
+const ary = [2, 1, 5, 7, 2, 0, 5]
+
+
+function calculateMedian(ary) {
+    const sorted = ary.sort((a, b) => a - b)
+
